@@ -1,0 +1,11 @@
+---
+applications:
+  - name: spiderbot-craw
+    random-route: true
+    instances: 1
+    memory: 1G
+    buildpack: java_buildpack
+    path: target/serchengine-0.0.1-SNAPSHOT.war
+    domain: cfapps.io
+    services:
+    - mysql
