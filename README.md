@@ -1,3 +1,3 @@
 # web-crawler-jsoup
 
-Dveloped web crawler app using jsoup library.
+Developed web crawler app using jsoup library.
